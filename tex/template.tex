@@ -1,0 +1,39 @@
+\documentclass[varwidth=5in, border={20pt 20pt 20pt 20pt}]{standalone}
+
+\hyphenpenalty=10000
+
+\usepackage{fontspec}
+\ExplSyntaxOn
+\let\tl_length:n\tl_count:n
+\ExplSyntaxOff
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Poppins-Light.otf} % or any font on your system
+\newfontfamily\myboldfont{Poppins-Bold.otf}
+\newfontfamily\myitalicfont{Poppins-LightItalic.otf}
+
+\begin{document}
+{\huge\myboldfont Unknown Artist}
+
+American, born 199x.
+
+\medskip
+
+{\large{\myboldfont Dennis is a Fagg}, 2018.}
+
+Aerosol paint.
+
+\bigskip
+
+This high-concept installation deftly amplifies the ambient homophobia of low-density urban public space.
+The eponymous piece distinguishes itself by its sly realization of exactly what you would expect here.
+In an anonymous and brazenly self-aware act of intellectual martyrdom, the artist conspicuously squanders his medium's expressive potential in order to proclaim his own profound creative impotence.
+By means of its triviality, this sophisticated work ultimately indicts the middling quality of recreational facilities afforded here by the City of Lansing.
+
+\medskip
+
+{\myitalicfont Dennis is a Fagg} succeeds the Lansing River Trail's acclaimed {\myitalicfont Ass Juice} installation.
+
+\bigskip
+
+{\myboldfont @twitterhandle} \hfill {\myitalicfont \#outsidemuseumwalls \#reinterpretivelabel}
+\end{document}
