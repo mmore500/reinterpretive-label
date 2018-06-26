@@ -1,5 +1,12 @@
 # reinterpretive-label
 
+Anything can become art by the addition of a sufficiently clever interpretive label, even really lame things.
+So, let's reinterpret lame things and make them awesome by adding interpretive label stickers!
+
+![](example.png)
+
+This repository contains software designed to help you design and print your own reinterpretive label stickers.
+
 ## RULE #1:
 
 be civil.
@@ -31,7 +38,9 @@ cp tex/template.tex instance.tex
 ```
 
 Now, you can open `instance.tex` with your favorite text editor and change the text.
-You don't really need to know much Latex in order to make edits.
+Feel free to re-use as much or as little of the template (including the text) as you desire.
+
+You shouldn't really need to know much Latex at all in order to successfully make minor edits.
 That said, if you're unfamiliar you can find some helpful hints in the "Latex Pointers" section below.
 
 When you're satisfied with your reinterpretive label (`instance.tex`), here's how to generate a PDF.
@@ -41,6 +50,7 @@ singularity run shub://mmore500/reinterpretive-label
 ```
 
 This will download the packaged linux workflow for you and do the actual work of compiling `instance.tex` to `instance.pdf`.
+Be sure that your `instance.tex` file is saved in the current working directory with exactly that name.
 
 If you want to fiddle with your reinterpretive label some more (i.e., make futher edits to `instance.tex`) and then recompile `instance.pdf`, waiting for the singularity workflow image to download again can be annoying.
 You can get around this by using the cached `.simg` file generated when you run from SingularityHub (`shub`) the first time.
@@ -54,6 +64,7 @@ Finally, to clean up, use
 make clean
 ```
 
+One you have a PDF that you like, getting your stickers printed is a snap.
 
 ## Printing Stickers
 
