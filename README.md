@@ -7,6 +7,10 @@ So, let's reinterpret lame things and make them awesome by adding interpretive l
 
 This repository contains software designed to help you design and print your own reinterpretive label stickers.
 
+The interpretive labels you create can respond to whatever you want.
+Don't feel the need to restrict yourself to just one thing or another.
+There's [a lot of ways to make the world a better place!](https://twitter.com/Malboury/status/968163458679263238/)
+
 ## RULE #1:
 
 be civil.
@@ -80,6 +84,11 @@ You can print stickers wherever you want.
 Share what you're up to with the hashtag [#reinterpretivelabel](https://twitter.com/hashtag/reinterpretivelabel) and\or tweet at me [@MorenoMatthewA](https://twitter.com/MorenoMatthewA).
 
 Bonus points for including the twitter handle of your local modern art museum in your stickers.
+
+## Contributing
+
+If you come up with something devastatingly clever you think others might benefit from using as a springboard, add it to the `tex` directory and put in a pull request (or just email me the `.tex` file you wrote up if you don't know what that means).
+Also, send along PDF copies of your creations so we can start a gallery of examples.
 
 ## Inquiries
 
